@@ -5,6 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.30.1/moment.min.js"></script>
+    <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.45/moment-timezone-with-data-1970-2030.min.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
@@ -15,43 +18,46 @@
     <div class="container">
         <h1>It's <a class="permanent-marker-regular">F<strong class="red">.</strong>R<strong
                     class="blue">.</strong>I<strong class="yellow">.</strong>E<strong class="red">.</strong>N<strong
-                    class="blue">.</strong>D<strong class="yellow">.</strong>S</a> O'Clock !</h1>
+                    class="yellow">.</strong>D<strong class="blue">.</strong>S</a> O'Clock !</h1>
 
         <select name="" id="">
             <option value="">--- Select a city ---</option>
+            <option value="">Montréal</option>
+            <option value="">Chennai</option>
             <option value="">Lyon</option>
-            <option value="">Tokyo</option>
-            <option value="">Rome</option>
-            <option value="">New York</option>
+            <option value="">Yokohama</option>
         </select>
 
-        <div class="city">
+        <div class="city" id="montreal">
             <div>
-                <h2>Lyon 🦁</h2>
-                <div class="date">28th April 2023</div>
+                <h2>Klaudia, Montréal 🇨🇦</h2>
+                <!-- Canada/Eastern -->
+                <div class="date"></div>
             </div>
-            <div class="time">00:17:15 <small>AM</small></div>
+            <div class="time"></div>
         </div>
-        <div class="city">
+        <div class="city" id="chennai">
             <div>
-                <h2>Tokyo 🍜</h2>
-                <div class="date">28th April 2023</div>
+                <h2>Pauline, Chennai 🇮🇳</h2>
+                <!-- même fuseau que Calcutta -->
+                <div class="date"></div>
             </div>
-            <div class="time">00:17:15 <small>AM</small></div>
+            <div class="time"></div>
         </div>
-        <div class="city">
+        <div class="city" id="lyon">
             <div>
-                <h2>Rome 🍕</h2>
-                <div class="date">28th April 2023</div>
+                <h2>Soraya, Lyon 🇫🇷</h2>
+                <div class="date"></div>
             </div>
-            <div class="time">00:17:15 <small>AM</small></div>
+            <div class="time"></div>
         </div>
-        <div class="city">
+        <div class="city" id="yokohama">
             <div>
-                <h2>New York 🍔</h2>
-                <div class="date">28th April 2023</div>
+                <h2>Sylvain, Yokohama 🇯🇵</h2>
+                <!-- même fuseau que Tokyo -->
+                <div class="date"></div>
             </div>
-            <div class="time">00:17:15 <small>AM</small></div>
+            <div class="time"></div>
         </div>
     </div>
     <footer>This project was coded by <strong>Soraya C.</strong> and is open sourced on <a
