@@ -1,6 +1,8 @@
 body {
-  background-color: #f9f7fe;
+  /* background-color: #f9f7fe; */
   font-family: sans-serif;
+  background-repeat: no-repeat;
+  background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/fs/ce4ee3115826849.6055d803ad537.jpg);
 }
 
 h1 {
@@ -13,6 +15,14 @@ h2 {
   font-size: 28px;
 }
 
+select {
+  display: block;
+  width: 100%;
+  padding: 5px;
+  border-radius: 4px;
+  font-size: 18px;
+}
+
 .container {
   max-width: 600px;
   margin: 60px auto;
@@ -22,12 +32,29 @@ h2 {
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
-select {
-  display: block;
-  width: 100%;
-  padding: 5px;
-  border-radius: 4px;
-  font-size: 18px;
+.permanent-marker-regular {
+  letter-spacing: 5px;
+  font-family: "Permanent Marker", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.red {
+  color: #ff181e;
+  position: relative;
+  top: -10px;
+}
+
+.blue {
+  color: #00b4ea;
+  position: relative;
+  top: -10px;
+}
+
+.yellow {
+  color: #ffbc00;
+  position: relative;
+  top: -10px;
 }
 
 .city {
