@@ -5,7 +5,7 @@ function updateTime() {
     let montrealTimeElement = montrealElement.querySelector(".time");
     let montrealTime = moment().tz("Canada/Eastern");
     
-    montrealDateElement.innerHTML = moment().format("dddd Do MMMM YYYY");
+    montrealDateElement.innerHTML = montrealTime.format("dddd Do MMMM YYYY");
     montrealTimeElement.innerHTML = `${montrealTime.format("hh:mm:ss")} <small>${montrealTime.format("A")}</small>`;
     
     // Chennai
@@ -14,7 +14,7 @@ function updateTime() {
     let chennaiTimeElement = chennaiElement.querySelector(".time");
     let chennaiTime = moment().tz("Asia/Calcutta");
     
-    chennaiDateElement.innerHTML = moment().format("dddd Do MMMM YYYY");
+    chennaiDateElement.innerHTML = chennaiTime.format("dddd Do MMMM YYYY");
     chennaiTimeElement.innerHTML = `${chennaiTime.format("hh:mm:ss")} <small>${chennaiTime.format("A")}</small>`;
     
     // Lyon
@@ -23,7 +23,7 @@ function updateTime() {
     let lyonTimeElement = lyonElement.querySelector(".time");
     let lyonTime = moment().tz("Europe/Paris");
     
-    lyonDateElement.innerHTML = moment().format("dddd Do MMMM YYYY");
+    lyonDateElement.innerHTML = lyonTime.format("dddd Do MMMM YYYY");
     lyonTimeElement.innerHTML = `${lyonTime.format("hh:mm:ss")} <small>${lyonTime.format("A")}</small>`;
     
     // Yokohama
@@ -33,7 +33,7 @@ function updateTime() {
     let yokohamaTimeElement = yokohamaElement.querySelector(".time");
     let yokohamaTime = moment().tz("Asia/Tokyo");
     
-    yokohamaDateElement.innerHTML = moment().format("dddd Do MMMM YYYY");
+    yokohamaDateElement.innerHTML = yokohamaTime.format("dddd Do MMMM YYYY");
     yokohamaTimeElement.innerHTML = `${yokohamaTime.format("hh:mm:ss")} <small>${yokohamaTime.format("A")}</small>`;
 }
 
