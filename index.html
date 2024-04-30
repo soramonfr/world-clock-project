@@ -4,27 +4,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="assets/style.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.30.1/moment.min.js"></script>
     <script
         src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.45/moment-timezone-with-data-1970-2030.min.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
-    <title>World Clock - Soraya C.</title>
+    <title>☕ Central Perk, the place where friends meet ☕</title>
 </head>
 
 <body>
     <div class="container">
-        <h1>It's <a class="permanent-marker-regular">F<strong class="red">.</strong>R<strong
-                    class="blue">.</strong>I<strong class="yellow">.</strong>E<strong class="red">.</strong>N<strong
-                    class="yellow">.</strong>D<strong class="blue">.</strong>S</a> O'Clock !</h1>
+        <div class="header">
+            <h1>It's <a class="permanent-marker-regular">F<strong class="red">.</strong>R<strong
+                        class="blue">.</strong>I<strong class="yellow">.</strong>E<strong class="red">.</strong>N<strong
+                        class="yellow">.</strong>D<strong class="blue">.</strong>S</a> O'Clock !</h1>
+
+                        <a href="/"><img class="central-perk-logo" src="assets/img/central-perk-friends.png"
+                            alt="Central Perk, Friends Cafe in NYC"></a>
+        </div>
 
         <select name="" id="city">
             <option value="">--- Select a city ---</option>
-            <option value="current">My current time zone</option>
-            <option value="Africa/Casablanca">Cherouk, Casablanca 🇲🇦</option>
-            <option value="Africa/Addis_Ababa">Bethy, Addis-Abeba 🇪🇹</option>
+            <optgroup label="Special Guests">
+                <option value="current">My current time zone</option>
+                <option value="America/New_York">Smelly cat 🐈‍</option>
+            </optgroup>
+            <optgroup label="More Friends">
+                <option value="Africa/Casablanca">Cherouk, Casablanca 🇲🇦</option>
+                <option value="Africa/Addis_Ababa">Bethy, Addis-Abeba 🇪🇹</option>
+                <option value="Europe/Paris">Soraya, Paris 🇫🇷</option>
+            </optgroup>
         </select>
 
         <div id="cities">
@@ -42,13 +53,6 @@
                 </div>
                 <div class="time"></div>
             </div>
-            <div class="city" id="lyon">
-                <div>
-                    <h2>Soraya, Lyon 🇫🇷</h2>
-                    <div class="date"></div>
-                </div>
-                <div class="time"></div>
-            </div>
             <div class="city" id="yokohama">
                 <div>
                     <h2>Sylvain, Yokohama 🇯🇵</h2>
@@ -57,13 +61,20 @@
                 <div class="time"></div>
             </div>
         </div>
+        <div>
+            <a href="/">
+                <img class="couch-central-perk" src="assets/img/couch-friends-central-perk.png"
+                    alt="Friends couch at the Central Perk cafe">
+            </a>
+            
+        </div>
     </div>
 
     <footer>This project was coded by <strong>Soraya C.</strong> and is open sourced on <a
             href="https://github.com/soramonfr/world-clock-project" target="_blank">Github</a>
     </footer>
 
-    <script src="javascript/index.js"></script>
+    <script src="assets/index.js"></script>
 </body>
 
 </html>

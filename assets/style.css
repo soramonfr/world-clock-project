@@ -1,35 +1,23 @@
 body {
-  /* background-color: #f9f7fe; */
+  background-color: #f9f7fe;
   font-family: sans-serif;
-  background-repeat: no-repeat;
-  background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/fs/ce4ee3115826849.6055d803ad537.jpg);
-}
-
-h1 {
-  text-align: center;
-  font-size: 36px;
-}
-
-h2 {
-  margin: 0 0 10px;
-  font-size: 28px;
-}
-
-select {
-  display: block;
-  width: 100%;
-  padding: 5px;
-  border-radius: 4px;
-  font-size: 18px;
+  color: #272142;
 }
 
 .container {
   max-width: 600px;
-  margin: 60px auto;
+  margin: 30px auto;
   background-color: white;
   padding: 30px;
   border-radius: 10px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+/* Header */
+h1 {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 0;
 }
 
 .permanent-marker-regular {
@@ -57,6 +45,20 @@ select {
   top: -10px;
 }
 
+/* Time & Date display */
+h2 {
+  margin: 0 0 10px;
+  font-size: 28px;
+}
+
+select {
+  display: block;
+  width: 100%;
+  padding: 5px;
+  border-radius: 4px;
+  font-size: 18px;
+}
+
 .city {
   display: flex;
   justify-content: space-between;
@@ -79,8 +81,32 @@ select {
   opacity: 0.7;
 }
 
+/* Footer */
+.back-homepage {
+  text-align: center;
+}
+
+.back-homepage a {
+  color: #995256;
+  text-decoration: none;
+}
+
 footer {
   text-align: center;
   font-size: 18px;
   color: rgba(0, 0, 0, 0.6);
+}
+
+/* Pictures */
+.couch-central-perk {
+  max-width: 450px;
+  display: block;
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+.central-perk-logo {
+  max-width: 300px;
+  display: block;
+  margin: 0 auto 20px;
 }
