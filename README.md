@@ -1,12 +1,12 @@
 # ☕ Central Perk, the place where friends meet - The JS World Clock 
 
-Central Perk Clock is an World Clock application inspired by the iconic american television sitcom "[Friends]([https://en.wikipedia.org/wiki/Friends])".
+Central Perk Clock is a World Clock application inspired by the iconic american television sitcom "[Friends]([https://en.wikipedia.org/wiki/Friends])".
 The application utilizes Moment.js & Moment Timezone.js libraries to parse, validate, manipulate, and display dates and times in any timezone in JavaScript.
 
 ## Features
 
 The homepage features a drop-down menu displaying the date and time of different time zones.
-I choose to showcase different cities based on where my friends currently live or travel.
+I chose to showcase different cities based on where my friends currently live or travel.
 
 ## Design inspo
 
